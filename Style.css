@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+.home {
+    height: 150vh;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: rgb(255, 0, 0);
+    border-bottom: 1px solid whitesmoke;
+}
+.logo {
+    color: rgb(231, 235, 29);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+span{
+    color: red;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: rgb(75, 4, 4);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+
+}
+.btn {
+    background-color: red;
+    color: black;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+.image{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 1;
+    right: -50px;
+}
+.image img{
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    right: 40%;
+    transform: transLateX(20%);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    transform: translateY(-50%);
+}
+h4{
+    color: red;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1 {
+    color: rgb(236, 213, 0);
+    font-size: 65px;
+    margin: 02px 0 20px;
+}
+h3 {
+    color: rgb(122, 5, 5);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content a {
+    font-size: 20px;
+    background: red;
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.content a:hover {
+    background: white;
+    border: 2px solid red;
+
+}
+.TentangKami {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #cec8c8;
+}
+.About-me {
+    width: 1200px;
+    max-width: 200%;
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.About-me img {
+    height: 700px;
+    width: 500px;
+    border-radius: 15px;
+}
+.About-text {
+    width: 550px;
+}
+.About-text h2 {
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    border-bottom: 1px solid red;
+}
+.About-text h5 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.About-text p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 19px;
+    margin-bottom: 45px;
+    text-align: justify;
+
+}
+.button {
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 40px;
+    transition:  0.5s;
+}
+.button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.skill {
+    background: white;
+    width: 100%;
+    padding: 100px 0 ;
+
+}
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px;
+    background: gainsboro;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid red;
+}
+.card i {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: red;
+}
+.card h5 {
+    color: red;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.pra p a {
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.pra p a:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    transition: .5s;
+}
+.pes p{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.pes p a {
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.pes p a:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    transition: .5s;
+}
+.services h2 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    border-bottom: 1px solid red;
+}
+
